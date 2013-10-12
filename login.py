@@ -1,7 +1,7 @@
 import MySQLdb as mdb
 import getpass
 con = mdb.connect(host="localhost", user="root",
-					 passwd="root", db="python")
+		passwd="root", db="python")
 
 user = raw_input("Username: ")
 passwd = getpass.getpass("passwd:")
